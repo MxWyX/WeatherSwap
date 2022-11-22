@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Weather swap</title>
+</head>
+<body>
+  <section class='wrapper'>
+    <header>
+      <h1>Whats the weather like on the other side of the world?</h1>
+      <p>Enter a city below and find out what the weather is like on the opposite side of the globe.</p>
+    </header>
+    <main>
+      <form action='GET'>
+        <label for="city">City:</label>
+        <input type="text" id='city'>
+        <button>Swap the weather!</button>
+      </form>
+      <p id='weather'></p>
+    </main>
+  </section>
+  <script src="./app.js"></script>
+</body>
+</html>
